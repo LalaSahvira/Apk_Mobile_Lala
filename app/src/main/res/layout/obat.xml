@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layouthistory"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    android:elevation="1dp">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="4dp"
+            android:id="@+id/tvkodeobat"
+            android:lines="2"
+            android:maxLines="2"
+            android:ellipsize="marquee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kode Obat"/>
+        <TextView
+            android:textColor="#FFAB40"
+            android:layout_marginTop="8dp"
+            android:textSize="16dp"
+            android:layout_marginHorizontal="5dp"
+            android:id="@+id/tvjenis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis"/>
+        <TextView
+            android:textColor="#8F8F8F"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="16dp"
+            android:layout_marginHorizontal="5dp"
+            android:id="@+id/tvpabrik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pabrik"/>
+        <TextView
+            android:textColor="#8F8F8F"
+            android:layout_marginBottom="10dp"
+            android:textSize="16dp"
+            android:layout_marginHorizontal="5dp"
+            android:id="@+id/tvharga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp.0"/>
+
+
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>
